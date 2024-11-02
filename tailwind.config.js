@@ -10,8 +10,8 @@ export default {
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
         './resources/js/**/*.jsx',
-        "app/**/*.{ts,tsx}",
-        "components/**/*.{ts,tsx}"
+        './resources/js/app.{js,jsx}',
+        './resources/js/components/**/*.{js,jsx}'
     ],
     theme: {
         container: {
