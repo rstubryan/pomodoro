@@ -1,4 +1,5 @@
 import { Link } from "@inertiajs/react";
+import { Heading } from "@/Components/atoms/Typography/index.jsx";
 
 export default function Home() {
     const auth = false;
@@ -23,7 +24,7 @@ export default function Home() {
 
     return (
         <div className={`container flex justify-between items-center`}>
-            <h1 className={`text-4xl text-start font-bold`}>Pomodoro</h1>
+            <Heading className={``}>Pomodoro</Heading>
             <nav className="">
                 <ul className="flex gap-3">
                     {filteredNavList.map((navItem, index) => (
