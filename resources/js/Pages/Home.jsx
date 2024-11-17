@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Head, useForm } from "@inertiajs/react";
 import Header from "@/Components/molecules/Header";
-import { Paragraph, PomoHeading } from "@/Components/atoms/Typography";
+import { PomoHeading } from "@/Components/atoms/Typography";
 import { Container } from "@/Components/templates/Container.jsx";
 import { Button } from "@/Components/ui/button.jsx";
 import { CircleHelp, CircleStop, Play, Plus } from "lucide-react";
