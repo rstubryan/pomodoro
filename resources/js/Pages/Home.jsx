@@ -24,7 +24,7 @@ import { Label } from "@/Components/ui/label.jsx";
 
 export default function Home() {
     const { data, setData, post, processing, errors, reset } = useForm({
-        task_name: "",
+        task_name: null,
         task_pomo: null,
     });
 
