@@ -24,7 +24,7 @@ export default function Home() {
 
     return (
         <div className={`container flex justify-between items-center`}>
-            <Heading className={``}>Pomodoro</Heading>
+            <Heading className={``}>Pomodoro Hello</Heading>
             <nav className="">
                 <ul className="flex gap-3">
                     {filteredNavList.map((navItem, index) => (
