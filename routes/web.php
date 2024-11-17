@@ -26,6 +26,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::get('/home', function () {
+    return Inertia::render('Home');
+});
 
 Route::prefix('pomodoro_sessions')->group(function () {
     Route::get('/', [PomodoroSessionController::class, 'index'])->name('pomodoro_sessions.index');
